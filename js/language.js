@@ -28,7 +28,7 @@ var indexhtml = {
         'en-us':'My Account'
     },
     getairdrop:{
-        'zh-cn':'获取空投',
+        'zh-cn':'获取 NFT 空投',
         'en-us':'Get Airdrop'
     },
     claimnft:{
