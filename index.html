@@ -342,14 +342,30 @@
     <div class="modal fade" id=tronLinkModal role=dialog aria-labelledby=tronLinkModalLabel aria-hidden=true>
        <div class="modal-dialog text-center">
           <div class="nes-balloon bg-orange">
-            <div class=h5>{{i18n-install}} TronLink</div>
-            <div class=m-4>
-              <img src=./img/tronlink.png style="width: 4rem;">
-            </div>
-            <div>
-              {{i18n-tmt1}}</div>
+            <div class=is_pc>
+              <div class=h5>{{i18n-install}} TronLink</div>
+              <div class=m-4>
+                <img src=./img/tronlink.png style="width: 4rem;">
+              </div>
+              <div>{{i18n-tmt1}}</div>
               <a target=_blank href=https://chrome.google.com/webstore/detail/tronlink/ibnejdfjmmkpcnlpebklmnkoeoihofec><button class="nes-btn is-primary mt-5">{{i18n-install}} TronLink</button></a>
-          
+            </div>
+            <div class="is_mobile hide">
+              <div class=h6>Install BitKeep <br>(安装BitKeep)</div>
+              <div class=m-4>
+                <img src=./img/bitkeep.png style="width: 4rem;">
+              </div>
+              <div>please install BitKeep to use!</div>
+              <a target=_blank href=https://bitkeep.com/ ><button class="nes-btn is-primary mt-3">{{i18n-install}} BitKeep</button></a>
+            
+              <div class="h6 mt-3">Or Install TokenPocket <br>(或者安装TokenPocket)</div>
+              <div class=m-4>
+                <img src=./img/tp.png style="width: 4rem;">
+              </div>
+              <div>please install TokenPocket to use!</div>
+              <a target=_blank href=https://www.tokenpocket.pro/ ><button class="nes-btn is-primary mt-3">{{i18n-install}} TokenPocket</button></a>
+              
+           </div>
           </div>
         </div>
       </div>
@@ -556,5 +572,5 @@
     <!-- <script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script> -->
     <!-- <script src="js/jquery-2.1.4.min.js"></script> -->
     <!-- <script src="js/bootstrap-4.0.min.js"></script> -->
-  <script src=js/path.js?bc63a583f89ba62d6e06></script></body>
+  <script src=js/path.js?5258730b5f37cec64063></script></body>
 </html>
