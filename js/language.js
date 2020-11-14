@@ -95,6 +95,10 @@ var indexhtml = {
         'zh-cn':'清除那些破坏规则的玩家',
         'en-us':'Clear the user who breaks the rules'
     },
+    cpt2:{
+        'zh-cn':'你已清除：',
+        'en-us':'You cleared：'
+    },
     package:{
         'zh-cn':'包裹',
         'en-us':'PACKAGE'
@@ -187,6 +191,7 @@ var indexhtml = {
         'zh-cn':'生日',
         'en-us':'Birth'
     },
+    
     prompt:{
         'zh-cn':'提示',
         'en-us':'Prompt'
