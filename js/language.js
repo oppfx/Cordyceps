@@ -139,6 +139,10 @@ var indexhtml = {
         'zh-cn':'邀请奖励',
         'en-us':'Refer Rewards'
     },
+    refnum:{
+        'zh-cn':'你已邀请:',
+        'en-us':'Referrals:'
+    },
     withdraw:{
         'zh-cn':'　提现　',
         'en-us':'Withdraw'
