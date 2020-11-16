@@ -3,6 +3,10 @@ var indexhtml = {
         'zh-cn':'首页',
         'en-us':'Home'
     },
+    add:{
+        'zh-cn':'添加',
+        'en-us':'Add'
+    },
     farms:{
         'zh-cn':'农场',
         'en-us':'Farms'

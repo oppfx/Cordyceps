@@ -143,13 +143,13 @@ a:hover{
   color: #92cc41;
   overflow: auto;
 }
-.clear_select button{
+.block_btn{
   border: 4px solid #000;
   background-color: transparent;
 }
-.clear_select button:focus{outline:0;}
+.block_btn:focus{outline:0;}
 
-.clear_select button:hover{
+.block_btn:hover{
   background-color: rgba(0,0,0,.3);
 }
 
@@ -171,6 +171,7 @@ a:hover{
   /* text-overflow:ellipsis;
   white-space:nowrap; */
   overflow: hidden;
+ 
 
 }
 .pool_mark{
@@ -178,6 +179,7 @@ a:hover{
   top: 0;
   right: 0;
   padding: 0;
+  z-index: 2;
   width: 2rem ;
   /* height: .3rem; */
 }
@@ -229,6 +231,7 @@ a:hover{
     margin-top: 1rem;
   }
   
+  
   .home_content .nes-balloon{
     width: 80%;
   }
@@ -256,6 +259,15 @@ a:hover{
   .nes-input{
     border-image-repeat: space;
   
+  }
+
+  .pool_mark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 2rem ;
+    /* height: .3rem; */
   }
 
 }
