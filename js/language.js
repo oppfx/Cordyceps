@@ -100,8 +100,8 @@ var indexhtml = {
         'en-us':'Clear the user who breaks the rules'
     },
     cpt2:{
-        'zh-cn':'你已清除：',
-        'en-us':'You cleared：'
+        'zh-cn':'你已清除: ',
+        'en-us':'You cleared: '
     },
     package:{
         'zh-cn':'包裹',
