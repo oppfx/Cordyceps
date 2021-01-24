@@ -23,6 +23,27 @@ var indexhtml = {
         'zh-cn':'关于',
         'en-us':'About'
     },
+    migrate:{
+        'zh-cn':'迁移',
+        'en-us':'Migrate'
+    },
+    balance:{
+        'zh-cn':'余额',
+        'en-us':'Balance'
+    },
+    mgtp1:{
+        'zh-cn':'迁移到火币智能链 (Heco)',
+        'en-us':'Migrate to Huobi Eco (Heco) Chain'
+    },
+    mgdf:{
+        'zh-cn':'提示: 不要填写交易所地址',
+        'en-us':'Tip: Do not fill in the exchange address'
+    },
+    hecoaddr:{
+        'zh-cn':'你的 Heco 钱包地址',
+        'en-us':'Heco Wallet Address'
+    },
+
     exchange:{
         'zh-cn':'交易所',
         'en-us':'Exchange'
@@ -304,7 +325,11 @@ var indexhtml = {
   var appjs ={
     version:{
         'zh-cn':'1.03',
-        'en-us':'1.03'
+        'en-us':'QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890.,/#'
+    },
+    tip:{
+        'zh-cn':'提示: ',
+        'en-us':'Tip: '
     },
     regis1:{
         'zh-cn':'注册中...',
@@ -317,6 +342,42 @@ var indexhtml = {
     regisfail:{
         'zh-cn':'注册失败',
         'en-us':'Registration failure'
+    },
+    mgdf:{
+        'zh-cn':'提示: 不要填写交易所地址',
+        'en-us':'Tip: Do not fill in the exchange address'
+    },
+    mgcheck1:{
+        'zh-cn':'正在检测历史迁移...',
+        'en-us':'Checking historical migration...'
+    },
+    mgcheck2:{
+        'zh-cn':'检测完毕...',
+        'en-us':'Check it out...'
+    },
+    mgcheck3:{
+        'zh-cn':'不要关闭本页面，等待验证令牌...',
+        'en-us':'Do not close this page and wait for validation token...'
+    },
+    mgcheck4:{
+        'zh-cn':'不要关闭本页面，令牌正在迁移中...',
+        'en-us':'Do not close this page and the token is migrating...'
+    },
+    mgsucc:{
+        'zh-cn':'迁移令牌已发送，请稍等片刻查询火币账户...',
+        'en-us':'The migration token has been sent. Please wait for a moment to check the Huobi account...'
+    },
+    erraddr:{
+        'zh-cn':'警告：输入地址错误 !',
+        'en-us':'Warning: wrong input address!'
+    },
+    mgappro:{
+        'zh-cn':'申请授权中...',
+        'en-us':'Applying for authorization...'
+    },
+    mgtoken1:{
+        'zh-cn':'令牌迁移中...',
+        'en-us':'Token migrating...'
     },
     copy:{
         'zh-cn':'复制',
