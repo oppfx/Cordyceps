@@ -324,7 +324,7 @@ var indexhtml = {
 
   var appjs ={
     version:{
-        'zh-cn':'1.03',
+        'zh-cn':'1.05',
         'en-us':'QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890.,/#'
     },
     tip:{
@@ -368,8 +368,12 @@ var indexhtml = {
         'en-us':'The migration token has been sent. Please wait for a moment to check the Huobi account...'
     },
     erraddr:{
-        'zh-cn':'警告：输入地址错误 !',
+        'zh-cn':'警告: 输入地址错误 !',
         'en-us':'Warning: wrong input address!'
+    },
+    errnft:{
+        'zh-cn':'错误: 请选择要迁移的NFT !',
+        'en-us':'Warning: Please select the NFT to migrate!'
     },
     mgappro:{
         'zh-cn':'申请授权中...',
@@ -394,6 +398,10 @@ var indexhtml = {
     select:{
         'zh-cn':'　选择　',
         'en-us':'Select'
+    },
+    select2:{
+        'zh-cn':'　已选　',
+        'en-us':'Selected'
     },
     end:{
         'zh-cn':'结束',
@@ -495,7 +503,14 @@ var indexhtml = {
         'zh-cn':'　成功　',
         'en-us':'Success'
     },
-
+    package:{
+        'zh-cn':'包裹',
+        'en-us':'PACKAGE'
+    },
+    cordynft:{
+        'zh-cn':'虫草 NFT',
+        'en-us':'CORDYCEPS NFT'
+    },
 
     close:{
         'zh-cn':'关闭',
